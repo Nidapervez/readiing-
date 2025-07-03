@@ -76,6 +76,7 @@ Tum har event ka type check kar ke decide kar sakti ho ke usko print karna hai y
 
 Summary: Har Cheez Short Mein
 Cheez	Matlab
+
 Runner.run_streamed(agent, input)	Streaming agent start karta hai
 result.stream_events()	Har naya event deta hai
 raw_response_event	Word-by-word updates
