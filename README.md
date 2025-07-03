@@ -74,7 +74,16 @@ Agar sirf kaam complete chahiye → run_item_stream_event use karo.
 
 Tum har event ka type check kar ke decide kar sakti ho ke usko print karna hai ya nahi.
 
-Agar chaho to main tumhe ek flowchart type ya cheat sheet image bhi bana kar de sakti hoon jo tumhari yaad ko aur strong kar de. Btao chahiye?
+Summary: Har Cheez Short Mein
+Cheez	Matlab
+Runner.run_streamed(agent, input)	Streaming agent start karta hai
+result.stream_events()	Har naya event deta hai
+raw_response_event	Word-by-word updates
+run_item_stream_event	Kaam complete hone par updates
+"tool_call_item"	Tool call ho raha hai
+"tool_call_output_item"	Tool complete ho gaya (output ready)
+"message_output_item"	Final message jo user ko milega
+agent_updated_stream_event	Jab agent khud badal jaye
 
 
 
@@ -84,4 +93,5 @@ Agar chaho to main tumhe ek flowchart type ya cheat sheet image bhi bana kar de 
 
 
 
-Ask ChatGPT
+
+
